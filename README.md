@@ -31,3 +31,5 @@ To set up and run the project, open the project directory in the terminal and fo
 ## Unload the Driver
 
 To remove the driver when done, use the command to unload the module from the kernel.
+```bash
+   sudo rmmod digit_key_driver
