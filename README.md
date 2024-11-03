@@ -6,7 +6,7 @@ This project creates a virtual keyboard that allows users to input handwritten d
 
 To set up and run the project, open the project directory in the terminal and follow these steps:
 
-1. **Install Required Libraries**: Install Python and necessary libraries for pygame, numpy, OpenCV, and scipy.
+1. **Install Required Libraries**:
    ```bash
    sudo apt install -y python3 python3-pygame python3-numpy python3-opencv python3-scipy
 2. **Compile the Device Driver**: Use `make` to compile the custom device driver.
