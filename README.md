@@ -8,19 +8,19 @@ To set up and run the project, open the project directory in the terminal and fo
 
 1. **Install Required Libraries**: Install Python and necessary libraries for pygame, numpy, OpenCV, and scipy.
    ```bash
-       sudo apt install -y python3 python3-pygame python3-numpy python3-opencv python3-scipy
+   sudo apt install -y python3 python3-pygame python3-numpy python3-opencv python3-scipy
 2. **Compile the Device Driver**: Use `make` to compile the custom device driver.
    ```bash
-       make
+   make
 3. **Load the Device Driver**: Insert the compiled module into the kernel.
    ```bash
-       sudo insmod digit_key_driver.ko
+   sudo insmod digit_key_driver.ko
 4. **Set Device Permissions**: Allow all users to access the driver.
    ```bash
-       sudo chmod 666 /dev/digit_key_driver  
+   sudo chmod 666 /dev/digit_key_driver  
 5. **Run the Python Input Script**: Start the main script to open the drawing grid for digit input.
     ```bash
-       python3 input.py
+   python3 input.py
    
 ## Usage Instructions
 
@@ -32,4 +32,4 @@ To set up and run the project, open the project directory in the terminal and fo
 
 To remove the driver when done, use the command to unload the module from the kernel.
 ```bash
-   sudo rmmod digit_key_driver
+sudo rmmod digit_key_driver
